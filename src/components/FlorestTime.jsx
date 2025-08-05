@@ -13,7 +13,7 @@ const FlorestTime = () => {
           <span className='text-green-400'>05:40 - 07:00</span>
         </div>
         <div className='rounded-xl bg-gradient-to-b from-green-700 to-green-950 p-8 max-sm:m-2'>
-          <img className='rounded-full bg-green-400 p-2' src="./src/assets/dia.svg" alt="" />
+          <img className='rounded-full bg-green-400 p-2' src="/assets/dia.svg" alt="" />
           <h3 className='text-white text-2xl font-serif mt-4 mb-6'>Meio-dia</h3>
           <p className='text-gray-300 mb-2'>Explore nossas trilhas sombreadas e desfrute de um piquenique gourmet na natureza.</p>
           <span className='text-green-400'>12:00 - 14:00</span>
