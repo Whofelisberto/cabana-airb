@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import logo from './assets/forest.svg';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Header = () => {
   return (
     <header className="container flex justify-between items-center p-8 mx-auto pb-20">
       <a href="./">
-        <img src="./src/assets/forest.svg" alt="Forest" />
+        <img src={logo} alt="Forest" />
       </a>
       <nav className="flex">
         <ul className="text-white text-xl flex items-center justify-end p-2 gap-5">
