@@ -22,8 +22,14 @@ React — framework utilizado para criar a interface e a lógica interativa.
 
 Tailwind CSS — framework CSS utilizado para estilização eficiente e responsiva.
 
+# Instalar dependências
+npm install  
+
+# Rodar em modo de desenvolvimento
+npm run dev
+
 # in English
 
-## About
+ ### About
 
 ### - A project focused on practical studies with React and Tailwind CSS, aimed at enhancing skills in modern frameworks and frontend development.
